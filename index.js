@@ -5,9 +5,6 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// // Connect to MongoDB
-// mongoose.connect('mongodb://localhost:27017/notesdb', { useNewUrlParser: true, useUnifiedTopology: true });
-
 
 // MongoDB Connection Retry Function
 function connectWithRetry() {
